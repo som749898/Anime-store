@@ -1,0 +1,99 @@
+.container {
+  max-width: 93.75rem;
+  padding: 0 0.625rem;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  padding: 0.625rem;
+  color: var(--secondary-color);
+}
+
+.home-input {
+  width: 21.875rem;
+}
+
+.home-input input {
+  padding-left: 1.875rem;
+  width: 21.875rem;
+}
+
+.home-action a:hover {
+  color: var(--primary-hover);
+}
+
+.user, .wishlist, .bag {
+  gap: 5px;
+  color: var(--secondary-color);
+}
+
+.user i, .wishlist i, .bag i {
+  font-size: 1.25rem;
+}
+
+.cover-page {
+  background-image: url(/assets/image/background-image-1.jpg);
+}
+
+.cover-page {
+  position: relative;
+}
+
+.home-about {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  color: var(--white-color);
+}
+
+.shop-button {
+  font-size: 1rem;
+  margin-top: 1.25rem;
+}
+
+.background-dark-grey {
+  background-color: #112233;
+  color: var(--off-white);
+}
+
+#footer {
+  padding: 0.625rem;
+  text-align: center;
+}
+
+.footer-description {
+  padding-top: 0.625rem;
+  font-size: 1rem;
+}
+
+.footer-description span {
+  color: var(--primary-color);
+}
+
+#footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  margin: 1rem;
+}
+
+#footer ul li {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+#footer ul li a {
+  color: var(--off-white);
+}
+
+#footer ul li a:hover {
+  color: var(--primary-color);
+}
