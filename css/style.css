@@ -59,7 +59,7 @@
 }
 
 .background-dark-grey {
-  background-color: #112233;
+  background-color: var(--dark-grey);
   color: var(--off-white);
 }
 
