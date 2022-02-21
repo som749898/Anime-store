@@ -1,0 +1,35 @@
+.login {
+  /* padding: 0 70px; */
+}
+
+.login-heading {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.login label {
+  margin: 0;
+}
+
+.login .input-group input {
+  width: 375px;
+}
+
+.div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-btn {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.login-text {
+  text-align: center;
+}
+
+.bolder {
+  font-weight: 800;
+}
