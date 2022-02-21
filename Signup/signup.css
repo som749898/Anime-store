@@ -1,0 +1,22 @@
+
+.signup-heading {
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+
+.signup label {
+  margin: 0;
+}
+
+.signup .input-group input {
+  width: 23.438rem;
+}
+
+.signup-btn {
+  width: 100%;
+  margin: 1.25rem 0;
+}
+
+.signup-text {
+  text-align: center;
+}
