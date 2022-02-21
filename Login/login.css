@@ -8,10 +8,10 @@
 }
 
 .login .input-group input {
-  width: 23.438px;
+  width: 23.438rem;
 }
 
-.div {
+.login-checkbox {
   display: flex;
   justify-content: space-between;
   align-items: center;
