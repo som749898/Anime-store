@@ -1,3 +1,5 @@
+@import url(/Product/product.css);
+
 .container {
   max-width: 93.75rem;
   padding: 0 0.625rem;

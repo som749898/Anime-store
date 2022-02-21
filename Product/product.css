@@ -1,0 +1,30 @@
+.product-filter {
+  width: 18.75rem;
+}
+
+.product-filter h4 {
+  padding-bottom: 5px;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter p {
+  text-decoration: underline;
+}
+
+.checkbox,.radio {
+  padding: 2px 0;
+  margin: 0;
+}
+
+.content {
+  padding: 0 3.125rem;
+}
+
+.card-container {
+  flex-wrap: wrap;
+}
