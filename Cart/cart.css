@@ -1,0 +1,27 @@
+.div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.cart-btn {
+  width: 100%;
+}
+
+.cart-text {
+  padding: 5px 0;
+}
+
+.card-content {
+  padding-right: 2.5rem;
+}
+
+.cart-heading {
+  margin-bottom: 1.25rem;
+  margin-top: 0.625rem;
+}
+
+.cart-place-order-btn {
+  margin-left: 0px;
+}
