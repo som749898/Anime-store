@@ -1,10 +1,6 @@
-.login {
-  /* padding: 0 70px; */
-}
-
 .login-heading {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 2.5rem;
 }
 
 .login label {
@@ -12,7 +8,7 @@
 }
 
 .login .input-group input {
-  width: 375px;
+  width: 23.438px;
 }
 
 .div {
@@ -23,7 +19,7 @@
 
 .login-btn {
   width: 100%;
-  margin: 20px 0;
+  margin: 1.25rem 0;
 }
 
 .login-text {
