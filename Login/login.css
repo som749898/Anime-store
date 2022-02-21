@@ -1,0 +1,31 @@
+.login-heading {
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+
+.login label {
+  margin: 0;
+}
+
+.login .input-group input {
+  width: 23.438rem;
+}
+
+.login-checkbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-btn {
+  width: 100%;
+  margin: 1.25rem 0;
+}
+
+.login-text {
+  text-align: center;
+}
+
+.bolder {
+  font-weight: 800;
+}
