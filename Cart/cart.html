@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://sky-ui-neogcamp.netlify.app/CSS/component.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/Cart/cart.css">
+  <title>Anime World</title>
+</head>
+
+<body>
+  <div class="container">
+    <header id="navbar" class="home-header">
+      <div class="flex vertical-center horizontal-center gap-2x">
+        <h2 id="icon"><a href="/index.html">Anime World</a></h2>
+        <ul class="flex gap-1x">
+          <li><a href="/index.html">
+              <div class="text-primary">Home</div>
+            </a></li>
+          <li><a href="/Product/product.html">Shop Now</a></li>
+        </ul>
+      </div>
+      <div class="home-input">
+        <i class="fa fa-search search-icon"></i>
+        <input placeholder="Type your search here" class="py-1x" type="text">
+      </div>
+      <div class="flex gap-3x home-action">
+        <a href="#" class="user flex flex-column vertical-center">
+          <i class="fa fa-user"></i>
+          <p>Login</p>
+        </a>
+        <a href="#" class="wishlist flex flex-column vertical-center">
+          <i class="fa fa-heart"> </i>
+          <p>wishlist</p>
+        </a>
+        <a href="#" class="bag flex flex-column vertical-center">
+          <i class="fa fa-shopping-bag">
+          </i>
+          <p>Bag</p>
+        </a>
+      </div>
+    </header>
+    <div class="main-content flex flex-column horizontal-center vertical-center">
+      <h3 class="cart-heading">MY CART (2)</h3>
+      <div class="flex gap-3x">
+        <div class="card-horizontal mg-bottom-1x">
+          <div class="card background-cover badge-container flex">
+            <span class="card-badge text-badge-position text-badge-style">New</span>
+            <i class="fa fa-times card-icon icon-badge-position"></i>
+            <img class="card-img-horizontal" src="/assets/image/t-shirt-8.jpg" alt="image">
+            <div class="card-content">
+              <p class="card-title-horizontal">Men Premium Tshirt</p>
+              <p class="card-price text-size py-bottom-2x py-top-1x">$75</p>
+              <div class="flex flex-column">
+                <button class="btn btn-primary cart-btn">Buy Now</button>
+                <button class="btn cart-btn outline-btn-secondary">Wishlist</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="price-detail py-2x background-cover">
+          <h3 class="py-bottom-1x">PRICE DETAILS</h3>
+          <hr>
+          <div class="div py-top-1x">
+            <p>Price (2 items)</p>
+            <p>$499</p>
+          </div>
+          <div class="div">
+            <p>Discount</p>
+            <p>-$199</p>
+          </div>
+          <div class="div">
+            <p>Delivery Charges</p>
+            <p>$0</p>
+          </div>
+          <hr>
+          <div class="div">
+            <h3 class="py-top-1x py-bottom-1x">TOTAL AMOUNT</h3>
+            <P>$299</P>
+          </div>
+          <hr>
+          <p class="cart-text">You will save $199 on this order</p>
+          <button class="btn btn-primary cart-btn cart-place-order-btn">Place order</button>
+        </div>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/8c3205e455.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
